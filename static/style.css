@@ -4,8 +4,11 @@ body {
     font-weight: 300; 
     /* background-color: #2F4F4F; */
     /* background-color: #191970; */
-    background-color: #4682B4;
+    /* background-color: #4682B4; current! */
+    background-color: #5F9EA0;
     color: #FFFAF0;
+
+    font-family: 'Titillium Web', sans-serif;
 }
 
 * {
@@ -24,9 +27,8 @@ a:hover {
 }
 
 .whole-head {
-    /* background: #FF6347; */
-    background: #FA8072;
-    /* height: 10vh; */
+    /* background: #FA8072; */
+    background-color: #191970;
     position: relative;
 
     /* display: flex;
@@ -36,7 +38,8 @@ a:hover {
 
 #navbar {
     /* background: #FF6347; */
-    background: #FA8072;
+    /* background: #FA8072; */
+    background-color: #191970;
     /* height: 10vh; */
     height: 40px;
     margin-left: 30%;
@@ -60,7 +63,7 @@ a:hover {
 .resume-container {
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 40px;
+    margin-top: 20px;
 
     position: absolute;
     bottom: -100%;
@@ -109,6 +112,7 @@ a:hover {
 #header {
     text-align: center;
     font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
 
     position: relative;
     left: -100%;
@@ -134,7 +138,8 @@ a:hover {
 }
 
 .home-links {
-    color: #FA8072;
+    /* color: #FA8072; */
+    color: #191970;
 }
 
 
@@ -145,7 +150,8 @@ a:hover {
     margin-right: auto;
     width: 80%;
     /* height: calc(100vh - 100px); */
-    height: 80vh;
+    height: 75vh;
+    margin-bottom: 20px;
 }
 
 #project-header-container {
@@ -153,8 +159,27 @@ a:hover {
     text-align: center;
 }
 
+/* .pdf-viewer {
+    display: inline-block;
+    background-color: white;
+    color: #191970;
+    border: 1px solid #191970;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .pdf-viewer {
     display: none;
+}
+
+.pdf-container {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -175,7 +200,7 @@ a:hover {
     }
     to {
       /* bottom: 0; */
-      top: 10%;
+      top: 30px;
     }
   }
 
@@ -233,15 +258,20 @@ a:hover {
 
     /* ------------------------- project */
     .project-link {
-        /* width: 95%;
-        overflow: hidden;
-        height: 80vh; */
         display: none;
     }
 
-    .pdf_viewer {
+    .pdf-viewer {
         font-size: 30px;
         text-decoration: none;
+        display: inline-block;
+        background-color: white;
+        color: #191970;
+        border: 1px solid #191970;
+        transition: background-color 0.3s, color 0.3s;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 20px;
     }
 
     .pdf-container {
