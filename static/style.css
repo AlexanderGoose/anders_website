@@ -111,8 +111,10 @@ a:hover {
 
 #header {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Orbitron', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 
     position: relative;
     left: -100%;
