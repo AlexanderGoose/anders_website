@@ -1,0 +1,219 @@
+/* ----------------------------- General Styling */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300; 
+    /* background-color: #2F4F4F; */
+    /* background-color: #191970; */
+    background-color: #4682B4;
+    color: #FFFAF0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* ----------------------------- navbar styling */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #663399;
+}
+
+.whole-head {
+    /* background: #FF6347; */
+    background: #FA8072;
+    /* height: 10vh; */
+    position: relative;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#navbar {
+    /* background: #FF6347; */
+    background: #FA8072;
+    /* height: 10vh; */
+    height: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: flex-end; */
+}
+
+.navbar-item {
+    color: #FFFAF0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    font-size: large;
+}
+
+/* ------------------------- resume */
+.resume-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+
+    position: absolute;
+    bottom: -100%;
+    animation: comeUpFromBottom 1s forwards;
+}
+
+.resume-container li {
+    font-size: 20px;
+}
+
+.resume-list-header {
+    font-size: 25px;
+}
+
+.resume-header {
+    text-align: center;
+}
+
+#resume-name {
+    font-size: 50px;
+}
+
+.contact-info {
+    font-size: 25px;
+}
+
+.resume-text {
+    font-size: 20px;
+}
+
+/* ------------------------- home */
+
+
+
+#container-main-home {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 150px;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+
+    position: relative;
+    left: -100%;
+    animation: enterFromLeft 1s forwards;
+}
+
+#column-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1;
+    padding: 5%;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    font-size: 20px;
+}
+
+.home-links {
+    color: #FA8072;
+}
+
+
+/* ------------------------- project */
+.project-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* height: calc(100vh - 100px); */
+    height: 80vh;
+}
+
+#project-header-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* ------------------------- animations */
+@keyframes enterFromLeft {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+
+
+  @keyframes comeUpFromBottom {
+    from {
+      top: 100%;
+    }
+    to {
+      /* bottom: 0; */
+      top: 10%;
+    }
+  }
+
+
+/* phone sizing adjustments */ 
+  @media only screen and (max-width: 800px) {
+    /* ------------------------- navbar */
+    #navbar {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .navbar-item {
+        font-size: 20px;
+    }
+
+    /* ------------------------- home */
+    #container-main-home {
+        margin-top: 10px;
+    }
+
+    #column-container {
+        flex-direction: column;
+    }
+
+
+    /* ------------------------- resume */
+    li {
+        font-size: larger;
+    }
+    .resume-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .resume-text {
+        font-size: larger;
+    }
+
+    .resume-list-header {
+        font-size: x-large;
+    }
+
+    /* ------------------------- project */
+    .project-link {
+        width: 95%;
+        height: 80vh;
+    }
+  }

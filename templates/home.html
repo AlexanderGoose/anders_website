@@ -1,0 +1,79 @@
+{% extends 'template.html' %}
+
+
+{% block content %}
+<!-- <div class="home-container">
+
+    <div class="left-side-home">
+        <div class="left-side-top-home">
+            <h1>I'm Anders!</h1>
+            <br>
+            <br>
+        </div>
+
+        <div class="left-side-bottom-home">
+
+        </div>
+        <h1>I'm a mathematician with a passion for orbits.<br><br>
+    
+             Check out my 
+             <a id="home-resume-link" href="{{ url_for('projects') }}">project</a>
+             and my 
+             <a href="{{ url_for('resume') }}">resume.</a></h1>
+    </div>
+
+    <div class="right-side-home">
+        <p>I would like to introduce myself and explain my skills and my lack of work experience. I live on the Autism Spectrum which has both benefits and challenges. I have a unique and creative perspective and math skills (insert specialization). My college studies took longer than some, and one reason is I switched majors from psychology to math when some math professors saw some of my work with orbits and persuaded me to change to math.
+            <br><br>
+            I would like to find work that would be impactful for a business and meaningful for a team and myself, as well. I am searching for someone who could benefit from my skill set and is willing to give me an opportunity to work and learn. 
+            <br><br>
+            Thank you for your consideration!
+            <br><br>
+            Anders Colin Gustafson 
+
+        </p>
+    </div> -->
+
+    <div id="container-main-home">
+
+
+        <div id="header">
+            <h1>I'm Anders!</h1>
+        </div>
+
+        <div id="column-container">
+
+            <div class="col left">
+                <h1>I'm a mathematician with a passion for orbits.<br><br>
+    
+                    Check out my 
+                    <a class="home-links" href="{{ url_for('projects') }}">project</a>
+                    and my 
+                    <a class="home-links" href="{{ url_for('resume') }}">resume.</a></h1>
+            </div>
+
+            <div class="col right">
+                <p>I would like to introduce myself and explain my skills and my lack of work experience. I live on the Autism Spectrum which has both benefits and challenges. I have a unique and creative perspective and math skills (insert specialization). My college studies took longer than some, and one reason is I switched majors from psychology to math when some math professors saw some of my work with orbits and persuaded me to change to math.
+                    <br><br>
+                    I would like to find work that would be impactful for a business and meaningful for a team and myself, as well. I am searching for someone who could benefit from my skill set and is willing to give me an opportunity to work and learn. 
+                    <br><br>
+                    Thank you for your consideration!
+                    <br><br>
+                    Anders Colin Gustafson 
+        
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+         
+
+    <br>
+
+</div>
+
+
+
+{% endblock %}
