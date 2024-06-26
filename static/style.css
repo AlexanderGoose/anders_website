@@ -146,6 +146,36 @@ a:hover {
 
 
 /* ------------------------- project */
+
+#container-main-project {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* #orbit-pic {
+    flex: 1;
+    padding: 5px;
+    /* height: 40px; 
+    height: auto;
+} */
+#orbit-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+#orbit-pic img {
+    width: 200px;
+    height: auto;
+}
+
 .project-link {
     display: block;
     margin-left: auto;
@@ -158,22 +188,9 @@ a:hover {
 
 #project-header-container {
     margin-top: 50px;
-    text-align: center;
+    text-align: right;
+    flex: 1;
 }
-
-/* .pdf-viewer {
-    display: inline-block;
-    background-color: white;
-    color: #191970;
-    border: 1px solid #191970;
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 20px;
-
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 .pdf-viewer {
     display: none;
@@ -283,7 +300,10 @@ a:hover {
         
     }
 
-    
+    #container-main-project {
+        margin-left: 2%;
+        margin-right: 2%;
+    }    
 
 
   }
