@@ -195,13 +195,17 @@ a:hover {
 
 
     /* ------------------------- resume */
+    .email {
+        font-size: 16px;
+    }
+
     li {
         font-size: larger;
     }
     .resume-container {
         margin-left: 5%;
         margin-right: 5%;
-        position: relative;
+        /* position: relative; */
     }
 
     .resume-text {
@@ -217,6 +221,12 @@ a:hover {
         width: 95%;
         overflow: hidden;
         height: 80vh;
+    }
+
+    .pdf-container {
+        transform-origin: top;
+        transform: scale(0.7); /* Scales down the size of the iframe to fit smaller screens */
+        overflow: hidden; 
     }
 
 
