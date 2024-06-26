@@ -225,7 +225,7 @@ a:hover {
 
 
 /* phone sizing adjustments */ 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     /* ------------------------- navbar */
     #navbar {
         margin-left: 10%;
