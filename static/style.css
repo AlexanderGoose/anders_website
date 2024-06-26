@@ -195,8 +195,8 @@ a:hover {
     /* ------------------------- home */
     #container-main-home {
         margin-top: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
+        /* margin-left: 5%;
+        margin-right: 5%; */
     }
 
     #column-container {
