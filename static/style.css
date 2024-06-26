@@ -91,6 +91,10 @@ a:hover {
     font-size: 20px;
 }
 
+.resume-list {
+    margin-left: 40px;
+}
+
 /* ------------------------- home */
 
 
@@ -149,6 +153,10 @@ a:hover {
     text-align: center;
 }
 
+.pdf-viewer {
+    display: none;
+}
+
 
 /* ------------------------- animations */
 @keyframes enterFromLeft {
@@ -187,6 +195,8 @@ a:hover {
     /* ------------------------- home */
     #container-main-home {
         margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     #column-container {
@@ -202,6 +212,11 @@ a:hover {
     li {
         font-size: larger;
     }
+
+    .resume-list {
+        margin-left: 40px;
+    }
+
     .resume-container {
         margin-left: 5%;
         margin-right: 5%;
@@ -218,16 +233,25 @@ a:hover {
 
     /* ------------------------- project */
     .project-link {
-        width: 95%;
+        /* width: 95%;
         overflow: hidden;
-        height: 80vh;
+        height: 80vh; */
+        display: none;
+    }
+
+    .pdf_viewer {
+        font-size: 30px;
+        text-decoration: none;
     }
 
     .pdf-container {
-        transform-origin: top;
-        transform: scale(0.7); /* Scales down the size of the iframe to fit smaller screens */
-        overflow: hidden; 
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        
     }
+
+    
 
 
   }
