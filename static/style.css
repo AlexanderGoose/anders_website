@@ -201,6 +201,7 @@ a:hover {
     .resume-container {
         margin-left: 5%;
         margin-right: 5%;
+        position: relative;
     }
 
     .resume-text {
@@ -214,6 +215,9 @@ a:hover {
     /* ------------------------- project */
     .project-link {
         width: 95%;
+        overflow: hidden;
         height: 80vh;
     }
+
+
   }
