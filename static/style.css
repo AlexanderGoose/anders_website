@@ -305,5 +305,10 @@ a:hover {
         margin-right: 2%;
     }    
 
+    #orbit-pic img {
+        width: 100px;
+        height: auto;
+    }
+
 
   }
