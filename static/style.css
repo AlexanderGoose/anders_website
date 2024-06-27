@@ -239,9 +239,9 @@ a:hover {
 
 
     /* ------------------------- general */
-    body {
+    /* body {
         background-color: #191970;
-    }
+    } */
 
     /* ------------------------- navbar */
     #navbar {
@@ -257,7 +257,6 @@ a:hover {
     /* ------------------------- home */
     #container-main-home {
         margin-top: 10px;
-        background-color: #191970;
     }
 
     #column-container {
