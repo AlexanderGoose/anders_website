@@ -4,8 +4,9 @@
 body {
     /* font-family: "Helvetica Neue", Arial, sans-serif; */
     font-weight: 300; 
-    background-color: #00021E;
-    color: #FFFAF0;
+    background-color: #F5F5F5;
+    /* color: #FFFAF0; */
+    color: black;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -93,7 +94,8 @@ a:hover {
 #container-main-home {
     display: flex;
     flex-direction: column;
-    background-color: #00021E;
+    /* background-color: #00021E; */
+    background-color: #F5F5F5;
     margin-top: 150px;
 }
 
@@ -129,7 +131,7 @@ a:hover {
 
 .home-links {
     /* color: #191970; */
-    color: #790001;
+    color: #808000;
 }
 
 
