@@ -1,0 +1,42 @@
+{% extends 'template.html' %}
+
+{% block content %}
+
+<!-- <i>insert link to capstone project?</i>
+
+<i>have images of the orbits at the beginning</i>
+
+<i>change the intro of quotes to an elevator pitch</i>
+
+<ul>
+    <li>what is special about this</li>
+    <li>what was learned through this</li>
+    <li>what are skills gained through this project</li>
+    <li><i>turn these functions into code???</i></li>
+</ul> -->
+
+<div id="container-main-project">
+    <div id="project-header-container">
+        <h1>Capstone Project</h1>
+        <br>
+        <h2>Computer Modeling of Orbits with Gravitational Constant Changing</h2>
+        <br>
+        <br>
+    </div>
+    
+    <div id="orbit-pic">
+        <img src="static/images/orbit.png" alt="">
+    </div>
+
+</div>
+
+
+<div class="pdf-container">
+    <iframe class="project-link" src="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" frameborder="0"></iframe>
+    <a class="pdf-viewer" href="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" target="_blank">Click to view!</a>
+</div>
+
+
+<!-- <iframe class="project-link" src="https://docs.google.com/document/d/e/2PACX-1vR4Rm0QF11da1yoqmDDZ3040v-UwN-H5gHBGYNF-RcpyC3RhlINp_n7l1e9rtnwSw/pub?embedded=true" width="1000" height="780"></iframe> -->
+
+{% endblock %}
