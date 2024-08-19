@@ -12,3 +12,11 @@ function changeBackgroundColor() {
 
 // this calls the function every 2 seconds, changing the color
 setInterval(changeBackgroundColor, 1000)
+
+
+
+window.MathJax = {
+tex: {
+    inlineMath: [['\\(', '\\)']]  // Ensures inline MathJax delimiters are recognized
+}
+};

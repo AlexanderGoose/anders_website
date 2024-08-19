@@ -2,6 +2,8 @@
 
 {% block content %}
 
+
+
 <!-- <i>insert link to capstone project?</i>
 
 <i>have images of the orbits at the beginning</i>
@@ -15,7 +17,9 @@
     <li><i>turn these functions into code???</i></li>
 </ul> -->
 
-<div id="container-main-project">
+
+
+<!-- <div id="container-main-project">
     <div id="project-header-container">
         <h1>Capstone Project</h1>
         <br>
@@ -28,13 +32,71 @@
         <img src="static/images/orbit.png" alt="">
     </div>
 
+</div> -->
+
+<div class="proj-container">
+    <div class="proj-title">
+        <h1>Summary of my <a class="title-link" href="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" target="_blank"><u>Capstone Project</u></a> on Orbits and the Program I Developed</h1>
+    </div>
+    
+    <div class="proj-overview proj-1">
+        <p>
+            My initial interest in orbits evolved from my interest in studying higher dimensions. 
+            This interest led me to a forum on higher dimensions which discussed orbits in higher
+            dimensional orbits. For example, gravity drops off with \( \frac{1}{r^{(dimensions-1)}} \), so with higher
+            dimensions gravity weakens more rapidly over distances. This situation creates unstable 
+            orbits in 4 dimensions or more. I discovered that orbits can be stable in 4-dimensions only 
+            if the orbit is a perfect circle. Any other orbit will spiral in or spiral out.
+        </p>
+    </div>
+
+    <div class="proj-overview proj-2">
+        <p>
+            As I explored this more I found a site that would help me with modeling the inverse force 
+            law \( \frac{1}{r^x} \) , with any value of \( x \). I discovered that I could create more interesting force laws that
+            use \( \cos 𝑥 \), \( sin 𝑥 \), and \( e^x \), some of which create flower or star-shaped orbits. Also, I could 
+            change the mass of the orbiting object and central object resulting in some interesting orbits, 
+            such as the orbit of Pluto and Charon in our solar system.
+        </p>
+    </div>
+
+    <div class="proj-overview proj-3">
+        <p>
+            I wanted to explore some additional functions that I could not incorporate into the website 
+            program, so I developed my own program which ran on Excel. This took some time and much work; 
+            however, I finally perfected it. This allowed me to utilize a Bessely function to devise a 
+            stable orbit in a 4-dimensional system. Also, I varied the mass of the two objects to see how 
+            that would impact the orbit.
+        </p>
+    </div>
+
+    <div class="proj-overview proj-images">
+        <img class="proj-img" src="/static/images/orbit_pics/orbit_1.png" alt="orbit 1 pic">
+        <img class="proj-img" src="/static/images/orbit_pics/orbit_2.png" alt="orbit 2 pic">
+        <img class="proj-img" src="/static/images/orbit_pics/orbit_3.png" alt="orbit 3 pic">
+    </div>
+
+    <div class="proj-overview proj-3">
+        <p>
+            The Chair of the Math & Physics Department at Queens University of Charlotte, Michael Tarabek, 
+            Ph.D., encouraged me to utilize my interest in orbits for my senior capstone project. I still 
+            enjoy working on modeling orbits. I am also currently working on learning about modeling geodesics 
+            on a curved surface. See the link to view my capstone project.
+        </p>
+    </div>
+
+    <div class="proj-overview proj-link-container">
+        <a class="proj-link" href="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" target="_blank">Capstone Project PDF</a>
+    </div>
+
 </div>
 
+<div class="spacer"></div>
 
-<div class="pdf-container">
+<!-- <div class="pdf-container">
     <iframe class="project-link" src="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" frameborder="0"></iframe>
     <a class="pdf-viewer" href="{{ url_for('static', filename='pdf/anders_capstone.pdf') }}" target="_blank">Click to view!</a>
-</div>
+</div> -->
 
 
 <!-- <iframe class="project-link" src="https://docs.google.com/document/d/e/2PACX-1vR4Rm0QF11da1yoqmDDZ3040v-UwN-H5gHBGYNF-RcpyC3RhlINp_n7l1e9rtnwSw/pub?embedded=true" width="1000" height="780"></iframe> -->

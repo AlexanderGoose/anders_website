@@ -189,6 +189,70 @@ a:hover {
 }
 
 
+/* TAKE 2 */
+
+.proj-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.proj-title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.title-link {
+    text-decoration: none;
+    color: black;
+}
+
+.proj-overview {
+    margin-bottom: 15px;
+}
+
+.proj-images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+
+.proj-img {
+    width: 15vw;
+    height: auto;
+}
+
+.proj-link-container {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-link {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: #191970;
+    border: 1px solid #191970;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.proj-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.spacer {
+    height: 50px;
+}
+
+
 /* ------------------------- animations */
 @keyframes enterFromLeft {
     from {
@@ -361,5 +425,21 @@ a:hover {
 
     #project-header-container {
         text-align: center;
+    }
+
+
+    /* TAKE 2 */
+    .proj-container {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+    }
+
+    .proj-images {
+        flex-direction: column;
+    }
+
+    .proj-img {
+        width: 100%;
     }
   }
